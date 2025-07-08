@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sudoku</h1>
+        <div id="sudoku-board"></div>
+        <div class="buttons">
+            <button id="easy-btn">Fácil</button>
+            <button id="medium-btn">Médio</button>
+            <button id="hard-btn">Difícil</button>
+        </div>
+    </div>
+    <div class="action-buttons">
+        <button id="solve-btn">Resolver (Passo a Passo)</button>
+        <button id="check-btn">Verificar</button>
+    </div>
+    <script src="{{ url_for('static', filename='sudoku_generator.js') }}"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
