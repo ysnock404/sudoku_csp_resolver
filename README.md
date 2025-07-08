@@ -2,7 +2,7 @@
 
 Uma aplicação web elegante e interativa para jogar e resolver quebra-cabeças de Sudoku. Este projeto utiliza um resolvedor baseado em **Problema de Satisfação de Restrições (CSP)** com heurísticas otimizadas para encontrar soluções de forma eficiente, e demonstra o processo de resolução passo a passo.
 
-![image](https://github.com/user-attachments/assets/d7d80e90-7e22-40af-956b-6ddfe8e9baa5)
+![image](https://github.com/user-attachments/assets/ee4cb0bd-63d9-4b6e-8c12-759b34a093a1)
 
 ---
 
