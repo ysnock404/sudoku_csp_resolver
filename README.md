@@ -45,7 +45,7 @@ Siga os passos abaixo para rodar o projeto em sua máquina.
 
 **1. Clone o Repositório**
 ```bash
-git clone https://github.com/ysnock404/sudoku_csp_resolver.git
+git clone https://github.com/ysnock404/sudoku_csp_solver.git
 ```
 
 **2. Crie e Ative um Ambiente Virtual (Recomendado)**
